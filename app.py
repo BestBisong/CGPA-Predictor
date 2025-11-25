@@ -30,7 +30,6 @@ features = artifacts['features']
 
 # --- UI Layout ---
 st.markdown('<p class="big-font">🎓 CGPA Predictor</p>', unsafe_allow_html=True)
-st.write("We stripped away the noise. Enter the 8 key metrics that actually decide your grade.")
 
 with st.form("simple_form"):
     
