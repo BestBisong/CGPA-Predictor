@@ -5,7 +5,7 @@ import os
 np.random.seed(42)
 n_students = 1500 # Increased sample size
 
-print("--- 🏗️ Generating 'Dynamic' Naija Data ---")
+print("Generating 'Dynamic' Naija Data ")
 
 # 1. Generate only RELEVANT features
 data = {
@@ -58,5 +58,5 @@ df['G3'] = df['G3'].clip(0.0, 5.0).round(2)
 
 # Save
 df.to_csv('nigerian_students_dynamic.csv', index=False)
-print("✅ Generated 'nigerian_students_dynamic.csv'.")
-print("   - Optimized for simplicity and accuracy.")
+print(" Generated 'nigerian_students_dynamic.csv'.")
+print("    Optimized for simplicity and accuracy.")
